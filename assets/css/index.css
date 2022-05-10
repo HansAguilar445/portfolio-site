@@ -231,7 +231,7 @@ footer div p {
 	0%, 50% , 100% {
 		transform: translateY(0);
 	} 25%, 75% {
-		transform: translateY(10px);
+		transform: translateY(5px);
 	}
 }
 
