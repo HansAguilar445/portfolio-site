@@ -20,10 +20,11 @@ main {
 }
 
 .name {
-	margin-top: 90px;
+	/* margin-top: 90px; */
+	/* min-width: 25%; */
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	animation: slide-in 1.25s ease;
 }
 
@@ -35,7 +36,7 @@ main {
 }
 
 .name h1 {
-	font-size: 56px;
+	font-size: 48px;
 	color: #f8f8f8;
 }
 
@@ -45,7 +46,7 @@ main {
 }
 
 .name p {
-	font-size: 20px;
+	font-size: 16px;
 	color: #f8f8f8;
 }
 
@@ -81,7 +82,8 @@ section p {
 .socials ul {
 	list-style: none;
 	font-size: 0;
-	margin-right: 30px;
+	margin-right: 20px;
+	margin-top: 10px;
 }
 
 .socials ul li {
@@ -168,24 +170,28 @@ footer div p {
 }
 
 .column {
-	width: calc(20% - 10px);
-	height: 220px;
+	width: 100%;
+	padding: 10px;
+}
+
+.html, .js, .c-sharp, .css {
+	/* height: 180px; */
 	border: 1px solid #444444;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 10px;
 	border-radius: 4px;
+	padding: 15px;
 	box-shadow: 0 20px 48px 0 rgba(59, 69,  152, 0.14);
 }
 
 .column h3 {
 	font-size: 24px;
-	color: #d0d0d0;
+	color: #edeeef;
 }
 
 .column p {
-	color: #d0d0d0;
+	color: #edeeef;
 }
 
 .html {
@@ -202,10 +208,6 @@ footer div p {
 
 .c-sharp {
 	background-color: #682876;
-}
-
-.java {
-	background-color: #5382a1;
 }
 
 .css {
@@ -230,4 +232,43 @@ footer div p {
 	} 25%, 75% {
 		transform: translateY(10px);
 	}
+}
+
+@media screen and (min-width: 320px) {
+    .name h1 { font-size: 48px;}
+	h2 { font-size: 28px;  }
+	/* .html, .js, .c-sharp, .css { height: 30vh;} */
+}
+
+@media screen and (min-width: 580px) {
+    .name h1 { font-size: 48px;}
+	h2 { font-size: 28px;  }
+	/* .html, .js, .c-sharp, .css { height: 30vh;} */
+    .column-6 {
+        flex: 0 0 50%;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+	.name h1 { font-size: 56px;}
+	.name p { font-size: 20px; }
+	h2 { font-size: 28px;  }
+	/* .html, .js, .c-sharp, .css { height: 30vh;} */
+    .column-6 {
+        flex: 0 0 50%;
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .name h1 { font-size: 56px;   }
+	.name p { font-size: 20px; }
+	h2 { font-size: 28px;   }
+	
+    /* .html, .js, .c-sharp, .css { height: 31vh;} */
+    .column-3 {
+        flex: 0 0 25%;
+        width: 25%;
+    }
+
 }
