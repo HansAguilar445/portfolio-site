@@ -1,3 +1,18 @@
+commit e043e02c4b146b639f905380a89f2d808bd9db0f (HEAD -> main)
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Tue May 10 13:45:50 2022 -0500
+
+    Arrow animation tweaked
+
+commit 1e6511f0eb5139f5a7a19f692c89833c0332a9a1 (origin/main)
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+
+commit 1e6511f0eb5139f5a7a19f692c89833c0332a9a1 (origin/main)
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Tue May 10 13:43:52 2022 -0500
+
+    Changelog updated
+
 commit 0971b4ecd973f033ff290b92d2a4354afdce2287 (HEAD -> main, origin/main)
 Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
 Date:   Tue May 10 13:40:34 2022 -0500
