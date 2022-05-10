@@ -1,10 +1,46 @@
-commit 81f0e15fb1e3d83bd6663c5c7fe0414c7f711bbd (HEAD -> main)
+commit 0971b4ecd973f033ff290b92d2a4354afdce2287 (HEAD -> main, origin/main)
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Tue May 10 13:40:34 2022 -0500
+
+    Minor adjustments
+
+commit 857e92f5f7dff821dd257d1b4e3d6dd74b4ed997 (responsive)
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Tue May 10 13:35:35 2022 -0500
+
+    Responsiveness added
+
+commit c04dd32008536ad24a0442b99c2d47c5c9ea9388
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Tue May 10 12:42:03 2022 -0500
+
+    Adjustments
+
+commit 8d1587c3a23c1cb8985adb0b31887dccc42104db
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Tue May 10 12:38:25 2022 -0500
+
+    Updates
+
+commit 81f0e15fb1e3d83bd6663c5c7fe0414c7f711bbd
 Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
 Date:   Tue May 10 12:37:15 2022 -0500
 
     Minor fixes
 
-commit 2c809e645b64c5ea91785eb4cdd823f574c9330e (HEAD -> main, origin/main, socials)
+commit 1a07bdd1b519b5422e304de2b23f7b11ce5c9856
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Mon May 9 20:01:34 2022 -0500
+
+    Moved files
+
+commit 10422f9a7eace91ccedc590f0e2fbb51f609bc38
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Mon May 9 19:46:31 2022 -0500
+
+    Added changelog
+
+commit 2c809e645b64c5ea91785eb4cdd823f574c9330e
 Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
 Date:   Mon May 9 19:44:46 2022 -0500
 
