@@ -1,0 +1,23 @@
+commit 2c809e645b64c5ea91785eb4cdd823f574c9330e (HEAD -> main, origin/main, socials)
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Mon May 9 19:44:46 2022 -0500
+
+    Design tweaked
+
+commit fb0f39842092b8620c3db74325ad2462dba6fa3b
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Mon May 9 13:35:58 2022 -0500
+
+    About Me section complete
+
+commit 86a4b6e6d2910e9dd52b93297b431964df9e1275
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Fri May 6 14:47:07 2022 -0500
+
+    Hero image + name properly added
+
+commit dbb26adc901ba52194286639ac16e0ed33458818
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Fri May 6 14:17:27 2022 -0500
+
+    Initial commit
