@@ -9,12 +9,18 @@ main {
 .backdrop {
 	width: 100%;
 	height: 100%;
-	display: grid;
-	place-items: center;
 	background-color: rgb(0 0 0 / .5);
 }
 
+.name-container {
+	width: 100%;
+	height: calc(100% - 120px);
+	display: grid;
+	place-items: center;
+}
+
 .name {
+	margin-top: 90px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -24,17 +30,17 @@ main {
 .name hr {
 	width: 100%;
 	background-color: #0fb1cd;
-	border: 2px solid #0fb1cd;
+	border: 1px solid #0fb1cd;
 	margin: 10px 0;
 }
 
 .name h1 {
-	font-size: 48px;
+	font-size: 56px;
 	color: #f8f8f8;
 }
 
 .name h2 {
-	font-size: 30px;
+	font-size: 28px;
 	color: #f8f8f8;
 }
 
@@ -45,7 +51,7 @@ main {
 
 section {
 	width: 100%;
-	height: 30vh;
+	height: 25vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -60,6 +66,150 @@ section p {
 	font-size: 16px;
 	width: 60%;
 	line-height: 22px;
+	margin-bottom: 25px;
+}
+
+.socials {
+	height: 60px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.socials ul {
+	list-style: none;
+	font-size: 0;
+	margin-right: 30px;
+}
+
+.socials ul li {
+	display: inline;
+}
+
+.socials ul li + li {
+	margin-left: 15px;
+}
+
+.socials ul li a {
+	text-decoration: none;
+}
+
+.socials ul li a i {
+	background-color: rgb(75 75 75 / .5);
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 50%;
+	border: 1px solid #f8f8f8;
+	color: #f8f8f8;
+}
+
+.arrow {
+	height: 60px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.arrow i {
+	font-size: 30px;
+	color: #f8f8f8;
+	animation: bob 1.5s ease infinite;
+}
+
+.fa-linkedin:hover {
+	background-color: #0965c7;
+	border: 1px solid #0965c7;
+}
+
+
+.fa-github:hover {
+	background-color: #6e5494;
+	border: 1px solid #6e5494;
+}
+
+.fa-envelope:hover {
+	background-color: #DB4437;
+	border: 1px solid #DB4437;
+}
+
+footer {
+    border-top: #505050 solid 1px;
+    height: 56px;
+    background-color: #f1f2f3;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer div p {
+    margin: 15px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.skills {
+	width: 100%;
+	background-color: #edeeef;
+	padding: 20px;
+}
+
+.skills h2 {
+	margin: 20px;
+	font-size: 28px;
+	text-align: center;
+}
+
+.column {
+	width: calc(20% - 10px);
+	height: 220px;
+	border: 1px solid #444444;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 20px 48px 0 rgba(59, 69,  152, 0.14);
+}
+
+.column h3 {
+	font-size: 24px;
+	color: #d0d0d0;
+}
+
+.column p {
+	color: #d0d0d0;
+}
+
+.html {
+	background-color: #f06529;
+}
+
+.js {
+	background-color: #f0db4f;
+}
+
+.js h3, .js p {
+	color: #222;
+}
+
+.c-sharp {
+	background-color: #682876;
+}
+
+.java {
+	background-color: #5382a1;
+}
+
+.css {
+	background-color: #264de4;
 }
 
 @keyframes slide-in {
@@ -71,5 +221,13 @@ section p {
 		visibility: visible;
 		transform: translateY(0);
 		opacity: 1;
+	}
+}
+
+@keyframes bob {
+	0%, 50% , 100% {
+		transform: translateY(0);
+	} 25%, 75% {
+		transform: translateY(10px);
 	}
 }
