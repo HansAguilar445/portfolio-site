@@ -1,3 +1,9 @@
+commit 81f0e15fb1e3d83bd6663c5c7fe0414c7f711bbd (HEAD -> main)
+Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
+Date:   Tue May 10 12:37:15 2022 -0500
+
+    Minor fixes
+
 commit 2c809e645b64c5ea91785eb4cdd823f574c9330e (HEAD -> main, origin/main, socials)
 Author: Hans Aguilar <hans.christian.aguilar@gmail.com>
 Date:   Mon May 9 19:44:46 2022 -0500
